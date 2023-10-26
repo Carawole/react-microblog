@@ -19,10 +19,6 @@
   width: 100%;
 }
 
-.Sidebar a {
-  color: #444;
-}
-
 .Sidebar a:hover {
   background-color: #eee;
 }
@@ -31,7 +27,11 @@
   color: #444;
 }
 
-.Sidebar .nav-item .active {
+.Sidebar a, .dropdown-item, .dropdown-item.active {
+  color: #444;
+}
+
+.Sidebar .nav-item .active, .dropdown-item.active {
   background-color: #def;
 }
 
@@ -67,4 +67,14 @@
 .InputField {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.Write {
+  margin-bottom: 10px;
+  padding: 30px 0px 40px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.Write form {
+  width: 100%;
 }
