@@ -7,7 +7,7 @@ import Body from '../components/Body';
 import TimeAgo from '../components/TimeAgo';
 import { useApi } from '../contexts/ApiProvider';
 import Posts from '../components/Posts';
-import Button from 'react-bootstrap/esm/Button';
+import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
 import { useUser } from '../contexts/UserProvider';
 import { useFlash } from '../contexts/FlashProvider';
