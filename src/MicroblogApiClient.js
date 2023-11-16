@@ -35,7 +35,7 @@ export default class MicroblogApiClient {
         method: options.method,
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Bearer' + localStorage.getItem('accessToken'),
+          'Authorization': 'Bearer ' + localStorage.getItem('accessToken'),
           ...options.headers,
         },
         credentials: options.url === '/tokens' ? 'include' : 'omit',
