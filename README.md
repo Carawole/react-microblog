@@ -9,3 +9,11 @@ The Microblog Application is a full-stack web application built using React and 
 - Real-time features for dynamic user interactions.
 - Integration of RESTful APIs for efficient data management.
 
+## Installation
+
+Run the following commands in the terminal:
+```
+npm install
+npm deploy
+```
+Open your web browser and navigate to http://localhost:8080
